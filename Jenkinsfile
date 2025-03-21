@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'hhttps://github.com/ssethumadav/jenkinsex1.git', branch: 'main'
+                git url: 'https://github.com/ssethumadav/jenkinsex1.git', branch: 'main'
             }
         }
         stage('Install Dependencies') {
