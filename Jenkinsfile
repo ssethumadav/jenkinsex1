@@ -5,7 +5,7 @@ agent any
 stages {
 stage(&#39;Clone Repository&#39;) {
 steps {
-git &#39;https://github.com/your-repo/python-app.git&#39;
+git &#39;https://https://github.com/ssethumadav/jenkinsex1.git;
 }
 }
 stage(&#39;Install Dependencies&#39;) {
